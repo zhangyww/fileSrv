@@ -1,0 +1,20 @@
+syntax="proto3";
+package grpc;
+
+option go_package=".;grpcSrv";
+
+message FileInfo {
+    string ip   = 1;
+    int32  port = 2;
+    string path = 3;
+    int32  op   = 4;
+}
+
+message UploadResponse {
+    int32 code = 1;
+    string description = 2;
+}
+
+service UploadService {
+    rpc UploadFileInfo(FileInfo) returns (UploadResponse) {}
+}

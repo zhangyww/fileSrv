@@ -1,0 +1,19 @@
+<FileSrv>
+    <IP>172.16.16.164</IP>
+    <Port>9669</Port>
+
+    <RootDir>/opt/</RootDir>
+    <DirLevel>1</DirLevel>
+    <LoadHistory>false</LoadHistory>
+
+    <Ignore>
+        <Files>
+            <Prefix></Prefix>
+            <Suffix></Suffix>
+        </Files>
+        <Dirs>
+            <Prefix></Prefix>
+            <Suffix></Suffix>
+        </Dirs>
+    </Ignore>
+</FileSrv>
